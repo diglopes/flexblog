@@ -10,7 +10,7 @@ body {
 }
 
 ul {
-	list-style: none;s
+	list-style: none;
 }
 
 a {
@@ -25,4 +25,28 @@ img {
 
 * {
 	box-sizing: border-box;
+}
+
+/* Superinfo */
+
+.superinfo {
+	background: #122AB2;
+	color: #FFF;
+}
+
+.superinfo__container {
+	margin: 0 auto;
+	max-width: 960px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: 10px;
+}
+
+.superinfo__contato {
+	color: #fff;
+}
+
+.superinfo__container > * {
+	margin: 0 10px 10px 10px;
 }
