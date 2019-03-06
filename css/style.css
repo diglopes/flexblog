@@ -1,0 +1,28 @@
+/* RESET */
+body, h1, h2, p, ul, li, a {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Nunito', Arial, sans-serif;
+	color: #222;
+}
+
+ul {
+	list-style: none;s
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Deixa as imagens facilitadas para o responsivo */
+img {
+	display: block;
+	max-width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
