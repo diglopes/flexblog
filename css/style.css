@@ -92,3 +92,17 @@ img {
 .nav-menu__link a:hover {
 	color: #122AB2;
 }
+
+/* INTRODUCAO */
+
+.introducao {
+	max-width: 960px;
+	margin: 0 auto;
+	border-bottom: 2px solid #2C70FF;
+}
+
+.introducao__titulo {
+	font-size: 3rem;
+	line-height: 1;
+	padding: 60px 10px;
+}
