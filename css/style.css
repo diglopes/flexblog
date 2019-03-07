@@ -106,3 +106,38 @@ img {
 	line-height: 1;
 	padding: 60px 10px;
 }
+
+/* SOBRE */
+.sobre {
+	max-width: 960px;	
+	margin: 0 auto;
+	padding: 60px 0;
+	display: flex;
+	border-bottom: 2px solid #2C70FF;
+}
+
+.sobre__textos {
+	max-width: 50%;
+	margin: 0 10px;
+}
+
+.sobre__imagens {
+	display: flex;
+	align-items: flex-start;
+	margin: 0 10px;
+}
+
+.sobre__imagens > div:first-child{
+	margin-right: 20px;
+}
+
+.sobre__titulo {
+	font-size: 3rem;
+	margin-bottom: 30px;
+}
+
+.sobre__paragrafo {
+	color: #7c7c7c;
+	font-size: 1.2rem;
+	margin-bottom: 20px;
+}
