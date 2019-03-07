@@ -147,7 +147,6 @@ img {
 	max-width: 960px;
 	margin: 0 auto;
 	padding: 60px 0;
-	border-bottom: 2px solid #2C70FF;
 }
 
 .produtos h1 {
@@ -186,3 +185,90 @@ img {
 	border-top: 6px solid  #66d9eb;
 }
 
+/* PRECOS */
+.preco {
+	padding: 60px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-end;
+	background: #f7f7f7;
+}
+
+.preco__item {
+	flex: 1 1 260px;
+	border: 4px solid #fff;
+	padding: 20px;
+	margin: 10px;
+}
+
+.preco__item h2 {
+	font-size: 3rem;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.preco__item span {
+	max-width: 300px;
+	margin: 20px auto;
+	display: block;
+	font-size: 3rem;
+	text-align: center;
+	font-weight: bold;
+	padding: 10px 0 5px 0;
+	border-top: 4px solid #fff;
+	border-bottom: 4px solid #fff;
+}
+
+.preco__item ul {
+	max-width: 300px;
+	margin: 20px auto;
+	font-size: 1.125rem;
+	color: #7c7c7c;
+	font-style: italic;
+}
+
+.preco__item li {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 15px;
+}
+
+.preco__item li:after {
+	content: '';
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background: #2c70ff;
+	display: block;
+}
+
+.preco__item--bronze {
+	color: #BB7231;
+}
+
+.preco__item--prata {
+	color: #7C7B7C;
+}
+
+.preco__item--ouro {
+	color: #FAE93C;
+}
+
+.preco__botao {
+	font-size: 2rem;
+	border: 4px solid #222;
+	padding: 15px 0px;
+	color: #222;
+	font-weight: bold;
+	max-width: 300px;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	transition: .3s ease;
+}
+
+.preco__botao:hover {
+	background: #222;
+	color: #f7f7f7;
+}
