@@ -272,3 +272,51 @@ img {
 	background: #222;
 	color: #f7f7f7;
 }
+
+/* QUALIDADE */
+
+.qualidade {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 60px 0;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+.qualidade__item {
+	flex: 1 1 300px;
+	margin: 20px 10px;
+}
+
+.qualidade__item h2 {
+	color: #a4a4a4;
+	font-size: 2rem;
+	margin-bottom: 20px;
+}
+
+.qualidade__item h2:before {
+	content: '';
+	display: inline-block;
+	width: 8px;
+	height: 25px;
+	margin-right: 10px;
+}
+
+.qualidade__item:nth-of-type(3n+1) h2:before {
+	background: #ae81ff;
+}
+
+.qualidade__item:nth-of-type(3n+2) h2:before {
+	background: #f9265e;
+}
+
+.qualidade__item:nth-of-type(3n+3) h2:before {
+	background: #66d9eb;
+}
+
+.qualidade__item p {
+	font-size: 1.125rem;
+	line-height: 1.4;
+	color: #7c7c7c;
+}
