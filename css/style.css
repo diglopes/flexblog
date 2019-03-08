@@ -379,3 +379,19 @@ img {
 	padding: 15px 10px;
 	font-size: 2rem;
 }
+
+
+/* RODAPE */
+.rodape {
+	background: #2c70ff;
+	font-size: 2rem;
+	color: #122AB2;
+	display: flex;
+	justify-content: center;
+	padding: 80px 0;
+}
+
+.rodape p {
+	flex: 1;
+	text-align: center;
+}
