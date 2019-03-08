@@ -108,7 +108,7 @@ img {
 }
 
 /* SOBRE */
-.sobre {
+#sobre {
 	max-width: 960px;	
 	margin: 0 auto;
 	padding: 60px 0;
@@ -145,13 +145,13 @@ img {
 }
 
 /* PRODUTOS */
-.produtos {
+#produtos {
 	max-width: 960px;
 	margin: 0 auto;
 	padding: 60px 0;
 }
 
-.produtos h1 {
+#produtos h1 {
 	font-size: 3rem;
 	margin-bottom: 30px;
 }
@@ -188,7 +188,7 @@ img {
 }
 
 /* PRECOS */
-.preco {
+#preco {
 	padding: 60px;
 	display: flex;
 	flex-wrap: wrap;
@@ -292,18 +292,18 @@ img {
 		margin-bottom: 0;
 	}
 
-	.preco .preco__item:nth-child(3) {
+	#preco .preco__item:nth-child(3) {
 		order: -2;
 	}
 
-	.preco .preco__item:nth-child(2) {
+	#preco .preco__item:nth-child(2) {
 		order: -1;
 	}
 }
 
 /* QUALIDADE */
 
-.qualidade {
+#qualidade {
 	max-width: 960px;
 	margin: 0 auto;
 	padding: 60px 0;
