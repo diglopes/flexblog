@@ -112,12 +112,14 @@ img {
 	max-width: 960px;	
 	margin: 0 auto;
 	padding: 60px 0;
+	justify-content: center;
 	display: flex;
+	flex-wrap: wrap;
 	border-bottom: 2px solid #2C70FF;
 }
 
 .sobre__textos {
-	max-width: 50%;
+	flex: 1 1 300px;
 	margin: 0 10px;
 }
 
@@ -219,6 +221,10 @@ img {
 	border-bottom: 4px solid #fff;
 }
 
+.preco__item sup {
+	font-size: 1.5rem;
+}
+
 .preco__item ul {
 	max-width: 300px;
 	margin: 20px auto;
@@ -271,6 +277,28 @@ img {
 .preco__botao:hover {
 	background: #222;
 	color: #f7f7f7;
+}
+
+@media (max-width: 800px) {
+	.preco__item h2 {
+		font-size: 2.5rem;
+		margin-top: 0;
+	}
+	.preco__item span {
+		font-size: 2rem;
+	}
+	.preco__botao {
+		font-size: 1.5rem;
+		margin-bottom: 0;
+	}
+
+	.preco .preco__item:nth-child(3) {
+		order: -2;
+	}
+
+	.preco .preco__item:nth-child(2) {
+		order: -1;
+	}
 }
 
 /* QUALIDADE */
@@ -380,6 +408,20 @@ img {
 	font-size: 2rem;
 }
 
+@media (max-width: 600px) {
+	.newsletter__form button {
+		font-size: 1.5rem;
+	}
+
+	.newsletter__info h1 {
+		text-align: center;
+	}
+
+	.newsletter__info p {
+		max-width: none;
+		text-align: center;
+	}
+}
 
 /* RODAPE */
 .rodape {
