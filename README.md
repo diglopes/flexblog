@@ -1,6 +1,6 @@
 # Flexblog
 ---
-[![Foto do projeto](./img/flexblog.png)](https://www.google.com)
+[![Foto do projeto](./img/flexblog.png)](https://diglopes.github.io/flexblog/)
 >Este projeto foi criado a partir do curso CSS Flexbox ministrado pelo Designer e Programador André Rafael na plataforma Origamid. 
 ---
 
